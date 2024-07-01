@@ -11,6 +11,8 @@ public class stringplaindrome {
 
     public static void main(String args[]){
         String str= "racecar";
+        boolean ans=palindrome(str);
+        System.out.println(ans);
 
     }
 }

@@ -7,7 +7,7 @@ public class twoDarray {
         Scanner sc = new Scanner(System.in);
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                //Scanner sc = new Scanner(System.in);
+                
                 matrix[i][j]=sc.nextInt();
 
             }
@@ -15,8 +15,6 @@ public class twoDarray {
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 System.out.print(matrix[i][j] + " ");
-                
-
             }
             System.out.println();
         }
