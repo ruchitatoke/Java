@@ -1,3 +1,4 @@
+//Even and odd
 public class binary_oddeven {
     public static void main(String args[]){
         int n=3;
